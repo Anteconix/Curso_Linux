@@ -1,0 +1,22 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    box-sizing: border-box;
+    font-size: 40px;
+    margin: 0px;
+    border: 0px;
+    padding: 30px 50px 80px 70px ;
+    color: white;
+    background-color: rgb(34, 34, 34);
+    image-orientation: fixed;
+    background-image: url('../img/Low-code.jpg');
+    background-position: top;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: scroll;
+}
+
+.por{
+    font-size: 30px;
+    margin-top: -60px;
+}
