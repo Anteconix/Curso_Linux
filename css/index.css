@@ -23,13 +23,27 @@ body{
     max-width: 1600px;
     margin: 0 auto;
 }
+h3 {
+    font-size: 50px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
 .card{
-    background-color: rgb(105, 105, 105);
-    width: 27%;
+    background-color: rgb(22, 22, 22);
+    width: 305px;
+    height: 350px;
 
     margin: 2% 2%;
-    padding: 100px;
+    padding: 0px 60px;
+    
     display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 15%;
+    font-size: 30px;
+
 }
 .bot-img{
     height: 300px;
@@ -42,4 +56,36 @@ body{
     background-image: url('../img/seguidor1.jpg');
     background-size: cover;
     background-position: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo {
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 50%;
+    text-align: center;
+    background-color: #59048a;
+    padding: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.leiamais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
