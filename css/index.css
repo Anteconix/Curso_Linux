@@ -15,8 +15,31 @@ body{
     background-blend-mode: darken;
     background-attachment: scroll;
 }
-
 .por{
     font-size: 30px;
     margin-top: -60px;
+}
+.img-container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.card{
+    background-color: rgb(105, 105, 105);
+    width: 27%;
+
+    margin: 2% 2%;
+    padding: 100px;
+    display: inline-block;
+}
+.bot-img{
+    height: 300px;
+    width: 100%;    
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+}
+#img-1{
+    background-image: url('../img/seguidor1.jpg');
+    background-size: cover;
+    background-position: center;
 }
