@@ -48,11 +48,6 @@ h4 {
     background-size: cover;
     background-position: center;
 }
-#img-1{
-    background-image: url('../img/seguidor1.jpg');
-    background-size: cover;
-    background-position: center;
-}
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -75,8 +70,31 @@ h4 {
     font-size: 20px;
 
 }
+
+.botao:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    background-color: #000000;
+
+}
+
+
 .leiamais {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.nomes {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.pinguimzada {
+    display: flex;
+    position: absolute;
+    justify-content: right;
+    align-items: right;
+    margin-left: 0%;
+    margin-top: 3%;
 }
